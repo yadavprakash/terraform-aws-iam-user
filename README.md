@@ -16,7 +16,7 @@ This Terraform module creates an AWS Identity and Access Management (IAM-USER) a
 ## Usage
 To use this module, you should have Terraform installed and configured for AWS. This module provides the necessary Terraform configuration for creating AWS resources, and you can customize the inputs as needed. Below is an example of how to use this module:
 
-# Example 
+# Example
 ```hcl
 module "iam-user" {
   source      = "git::https://github.com/opsstation/terraform-aws-iam-user.git?ref=v1.0.0"
